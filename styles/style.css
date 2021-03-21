@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrap {
+  background: url("https://res.cloudinary.com/codeable/image/upload/v1616298389/makeitreal/background_qt8dlj.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 190px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.photo-wrap {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+  
+.info {
+  margin: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px gray ;
+}
